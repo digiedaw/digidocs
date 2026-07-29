@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdmworld=self.webpackChunkdmworld||[]).push([["3220"],{1912(l){l.exports=JSON.parse('{"blogBasePath":"/dmworld/blog","blogTitle":"Blog","authorsListPath":"/dmworld/blog/authors"}')}}]);
