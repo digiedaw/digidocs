@@ -1,0 +1,8 @@
+{
+  "label": "Tank",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "description": "Everything about the Tank playstyle."
+  }
+}

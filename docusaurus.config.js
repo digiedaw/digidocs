@@ -11,8 +11,8 @@ import {themes as prismThemes} from 'prism-react-renderer';
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'DigiDocs',
-  tagline: 'Dinosaurs are cool',
-  favicon: 'img/favicon.ico',
+  tagline: 'Your Digimon Masters Online Knowledge Base',
+  favicon: 'img/logo.png',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
   future: {
@@ -80,26 +80,46 @@ const config = {
         respectPrefersColorScheme: true,
       },
       navbar: {
-        title: 'DigiDocs',
-        logo: {
-          alt: 'DigiDocs Logo',
-          src: 'img/logo.svg',
-        },
-        items: [
-          {
-            type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
-            position: 'left',
-            label: 'Tutorial',
-          },
-          {to: '/blog', label: 'Blog', position: 'left'},
-          {
-            href: 'https://github.com/facebook/docusaurus',
-            label: 'GitHub',
-            position: 'right',
-          },
-        ],
-      },
+  title: "DigiDocs",
+
+  logo: {
+    alt: "DigiDocs Logo",
+    src: "img/logo.png",
+  },
+
+  items: [
+    {
+      to: "/",
+      label: "Home",
+      position: "left",
+    },
+    {
+      to: "/docs",
+      label: "Wiki",
+      position: "left",
+    },
+    {
+      to: "/docs/category/digimon",
+      label: "Digimon",
+      position: "left",
+    },
+    {
+      to: "/docs/category/dungeon",
+      label: "Dungeons",
+      position: "left",
+    },
+    {
+      to: "/docs/category/evolution",
+      label: "Evolution",
+      position: "left",
+    },
+    {
+      href: "https://github.com/digiedaw/digidocs",
+      label: "GitHub",
+      position: "right",
+    },
+  ],
+},
       footer: {
         style: 'dark',
         links: [
